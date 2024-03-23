@@ -1,0 +1,21 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    border: 0
+    
+}
+
+.outlined {
+    margin: 10px;
+}
+
+#problem {
+    margin: 5pt;
+    font-size: 24pt;
+}
+
+input {
+    border: 1px solid black;
+    margin: 3px;
+    padding: 2px;    
+}

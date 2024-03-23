@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script language="JavaScript" src="game.js"></script>
+        <link href="game.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body onLoad="initGame()">
+        <div class="outlined">
+            <div id="problem"></div><br />
+            <input autocomplete="false" type="number" id="answer" onKeyDown="updateOutputText(event)"/><button onClick="verifyResponse()">OK</button>
+            <div id="decision"></div>
+        </div>
+        <div>Верно: <span id="score"></span></div>
+        <div>Ошибок: <span id="errors"></span></div>
+    </body>
+</html>

@@ -19,3 +19,17 @@ input {
     margin: 3px;
     padding: 2px;    
 }
+
+.main-column {
+    float: left;
+    min-width: 400px;
+}
+
+.right-column {
+    float: left;
+}
+
+#heatmap td {
+    width: 20px;
+    height: 20px;
+}
